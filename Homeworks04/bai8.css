@@ -1,0 +1,33 @@
+.modal{
+    background-color: white;
+    width: 500px;
+    margin: 30px auto;
+    border-radius: 5px;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    border-bottom: 1px solid black;
+    padding: 15px;
+}
+
+.modal-body{
+    border-bottom: 1px solid black;
+    padding: 30px;
+    text-decoration: none;
+}
+
+.modal-footer{
+    color: black;
+    text-align: right;
+}
+
+.modal-footer button{
+    background-color: blue;
+    padding: 7px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

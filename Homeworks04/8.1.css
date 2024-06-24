@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.tong {
+    background-color: antiquewhite;
+    text-align: center;
+    width: 350px;
+
+    /* canh đều giữa  */
+    margin: 15px auto;
+    padding: 15px;
+    border: 1px solid rgb(176, 176, 190);
+    /* bo cạnh */
+    border-radius: 5px;
+}
+
+.dau {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(176, 176, 190);
+}
+
+.dau-1 {
+    font-weight: bold; 
+}
+
+.btn1 {
+    text-decoration: none;
+    color: rgb(77, 77, 255);
+}
+
+.than {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgb(176, 176, 190);
+}
+
+.btn2 {
+    background-color: rgb(77, 77, 255);
+
+    /* bỏ gạch chân */
+    text-decoration: none;
+    padding: 5px;
+    color: antiquewhite;
+
+    /* bo tròn cạnh */
+    border-radius: 5px;
+}

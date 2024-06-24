@@ -1,0 +1,14 @@
+.p2 {
+    background-color: azure;
+    color: red;
+    text-align: justify;
+    padding: 15px;
+}
+
+.p3 {
+    background-color: bisque;
+    color: blue;
+    text-align: justify;
+    padding: 15px;
+    margin-top: 10px;
+}

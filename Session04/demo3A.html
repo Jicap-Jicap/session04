@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			h1 {
+				background-color: red;
+				color: black;
+				text-align: center;
+			}
+
+			/* bộ chọn tagName */
+			h2 {
+				background-color: black;
+				color: white;
+				font-style: italic;
+			}
+
+			/* bộ chon theo class */
+			.div1 {
+				background-color: red;
+				width: 500px;
+			}
+
+			.div2 {
+				text-transform: uppercase;
+				text-align: center;
+			}
+
+			/* bộ chọn theo id */
+			#iddiv3 {
+				background-color: aquamarine;
+				color: black;
+			}
+
+			/* THỨ TỰ ƯU TIÊN: instyle > id > class > tagname */
+		</style>
+	</head>
+	<body>
+		<h1>Xin chào css</h1>
+		<h1>Thử xem</h1>
+
+		<h2>Thẻ tiêu đề h2</h2>
+		<div class="div1">
+			<p>Đoạn văn mẫu 1</p>
+		</div>
+
+		<!-- 1 div cos 2 class -->
+		<div class="div1 div2">
+			<p>Đoạn văn mẫu 2</p>
+		</div>
+
+		<div class="div3" id="iddiv3">
+			<p>Đoạn văn mẫu 3</p>
+		</div>
+	</body>
+</html>

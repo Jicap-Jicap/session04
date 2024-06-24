@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.bo-xanh {
+    text-align: center;
+    border: 2px solid green;
+    padding: 5px;
+    margin: 15px 0px;
+}
+
+.back-round {
+    background-color: bisque;
+    padding: 15px;
+}
+
+.back-round p {
+    text-decoration: underline;
+    color: blue;
+    text-transform: uppercase;
+}
+
+.khung {
+    background-color: white;
+    border-left: 10px solid green;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.btn {
+    background-color: green;
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    
+    /* bo cạnh */
+    border-radius: 5px;
+}

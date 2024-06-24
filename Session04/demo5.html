@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			/* xóa mặc định margin, padding về 0 */
+			* {
+				padding: 0;
+				margin: 0;
+			}
+			.div1 {
+				background-color: black;
+				color: antiquewhite;
+				width: 250px;
+				padding-left: 10px;
+
+				/* canh chữ đều hai bên */
+				text-align: justify;
+
+				/* margin: 10px; : khoảng cách khối */
+				margin-left: 50px;
+				margin-top: 50px;
+				margin-bottom: 50px;
+			}
+
+			.div2 {
+				width: 500px;
+				height: 500px;
+				background-image: url(images/phong-canh.jpg);
+
+				/* background-size: contain;: bóp ảnh vừa kích thước nhưng lặp lại*/
+
+				/* background-size: 100% 100%; :rộng cao 100% */
+				background-size: 100% 100%;
+
+				/* background-repeat: no-repeat;: không lặp lại ảnh */
+				background-repeat: no-repeat;
+				color: antiquewhite;
+				border: 5px solid red;
+			}
+
+			.btn {
+				color: yellow;
+				text-transform: uppercase;
+
+				/* text-decoration: none; : bỏ gạch chân */
+				text-decoration: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="div1">
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quia
+				corrupti esse commodi in error ut ullam repellendus ratione quod
+				expedita, vitae sed, dicta totam laboriosam cum quaerat aliquid nulla?
+			</p>
+		</div>
+		<div class="div2">
+			<p>
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia
+				officiis nesciunt expedita illum voluptatibus repellendus repudiandae
+				rem, voluptatem, nobis unde sint reiciendis asperiores odit commodi
+				aspernatur quisquam possimus totam corporis.
+			</p>
+			<p>Demo</p>
+			<a href="" class="btn">Xem ngay</a>
+		</div>
+	</body>
+</html>

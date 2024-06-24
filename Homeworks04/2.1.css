@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.tong {
+    background-color: antiquewhite;
+    padding: 5px;
+    margin: 5px;
+    text-align: justify;
+}
+
+.content {
+    margin-top: 10px;
+}
+
+.content-2 {
+    color: aquamarine;
+}

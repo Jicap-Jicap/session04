@@ -1,0 +1,45 @@
+* {
+    padding: 0px;
+    margin: 0;
+}
+
+.tong {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+.dau {
+    background-color: antiquewhite;
+    text-align: center;
+    color: red;
+}
+
+.than {
+    background-color: burlywood;
+    text-align: center;
+    padding: 10px;
+}
+
+.p1 {
+    color: red;
+    font-weight: bold;
+}
+
+.p2 {
+    margin-bottom: 10px;
+}
+
+.than a {
+    text-decoration: none;
+    background-color: blue;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.chan {
+    background-color: antiquewhite;
+    text-align: center;
+    color: red;
+}
